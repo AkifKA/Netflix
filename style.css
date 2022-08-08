@@ -6,7 +6,11 @@
     box-sizing: border-box;
 }
 body{
-    /* background-image: url(./images/netflix-background-image\ 1.png); */
+    background-image: url(./images/netflix-background-image\ 1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* background-attachment: fixed; */
 }
 #container{
     max-width: 1240px;
@@ -25,10 +29,12 @@ body{
 span{
     color: #ff0000;
 }
+
 #description{
     
     font-family: 'Sorts Mill Goudy', serif;
 }
+
 #header{
     text-align: center;
 }
@@ -36,6 +42,7 @@ span{
 textarea{
     resize: none;
 }
+
 #survey-form-container{
     width: 500px;
     background-color: rgba(0,0,0, 0.8);
@@ -56,7 +63,13 @@ textarea{
 
 .input-box{
     margin-top: 10px;
+    /* font-family: akif; */
 }
+
+#checkbox, #radio{
+    margin-top: 40px;
+}
+
 #form-button{
     width: 160px;
     height: 45px;
@@ -64,6 +77,7 @@ textarea{
     border-radius: 50px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 .form-submit{
     margin:auto;
@@ -73,6 +87,10 @@ textarea{
 #form-button:hover{
         background-color: white;
         color: #ff0000;
+    }
+    @font-face {
+        font-family: akif;
+        src: url(./fonts/Inspiration-Regular.ttf);
     }
 
 
