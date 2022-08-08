@@ -41,7 +41,7 @@ textarea{
     background-color: rgba(0,0,0, 0.8);
     margin: auto;
     padding: 30px 40px;
-    border:2px solid red
+    /* border:2px solid red */
 }
 
 #name,
@@ -50,4 +50,29 @@ textarea{
 #dropbox, 
 #feedback{
     width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
 }
+
+.input-box{
+    margin-top: 10px;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: #FF0000;
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+.form-submit{
+    margin:auto;
+    width: 160px;
+    margin-top: 15px;
+}
+#form-button:hover{
+        background-color: white;
+        color: #ff0000;
+    }
+
+
