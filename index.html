@@ -52,9 +52,37 @@
             <label for="content">Content Type</label>
             <br>
             <select name="container" id="dropdown">
+                <!-- <option value="" hidden>None</option> -->
                 <option value="movie">Movies</option>
-                <option value="series">Series</option>
+                <option value="series" selected>Series</option>
+                <option value="TV_shows">TV Shows</option>
             </select>
+          </div>
+
+          <div class="input-box">
+            <label for="">Movie Type</label>
+            <br>
+            <input type="checkbox" name="movie" id="first-check" value="Comedy">
+            <label for="first-check">Comedy</label>
+            <br>
+            <input type="checkbox" name="movie" id="second-check" value="Action">
+            <label for="second-check">Action</label>
+            <br>
+            <input type="checkbox" name="movie" id="third-check" value="Romance">
+            <label for="third-check">Romance</label>
+          </div>
+
+          <div class="input-box">
+            <label for="">Gender</label>
+            <br>
+            <input type="radio" name="gender" id="first-radio" value="Male">
+            <label for="first-radio">Male</label>
+            <br>
+            <input type="radio" name="gender" id="second-radio" value="Female" checked>
+            <label for="second-radio">Female</label>
+            <br>
+            <input type="radio" name="gender" id="third-radio" value="Other">
+            <label for="third-radio">Other</label>
           </div>
         </form>
       </section>
