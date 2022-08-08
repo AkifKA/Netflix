@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     color: white;
     /* background-attachment: fixed; */
+    height: 100vh;
 }
 #container{
     max-width: 1240px;
