@@ -11,21 +11,52 @@
     <div id="container">
       <header id="header">
         <h1 id="title">NET<span>FLIX</span></h1>
-        <h3 id="description">Thank you for signing up to Netflix.Tell me more about yourself.</h3>
+        <h3 id="description">
+          Thank you for signing up to Netflix.Tell me more about yourself.
+        </h3>
       </header>
       <section id="survey-form-container">
-        <form action="result.html" >
-            <div class="input-box">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="Enter your name" placeholder="Enter your name">
-            </div>
-
-
-
-
+        <form action="result.html">
+          <div class="input-box">
+            <label for="name">Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="input-box">
+            <label for="age">Age</label>
+            <br />
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Enter your age"
+            />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <div class="input-box">
+            <label for="content">Content Type</label>
+            <br>
+            <select name="container" id="dropdown">
+                <option value="movie">Movies</option>
+                <option value="series">Series</option>
+            </select>
+          </div>
         </form>
-
       </section>
     </div>
   </body>
